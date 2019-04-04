@@ -24,8 +24,7 @@ public class ReverseString {
 		//Third way is using substring()
 		String reverse2="";
 		
-		for(int i=original.length()
-				; i>0; i--) {
+		for(int i=original.length(); i>0; i--) {
 			
 			reverse2=reverse2+original.substring(i-1, i);
 		}
