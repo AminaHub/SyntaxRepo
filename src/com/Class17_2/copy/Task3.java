@@ -1,9 +1,10 @@
-package com.Class9;
+package com.Class17_2.copy;
 
 public class Task3 {
 
 	public static void main(String[] args) {
 	
+		Task3 obj=new Task3();
 		/*
 		 * 3. Print the following pattern:
 		 *	1
@@ -13,10 +14,18 @@ public class Task3 {
 		 *	12345
 		 */
 		
-		Task3 T=new Task3();
+//		for (int r=1; r<=5;r++) {
+//			for(int c=1; c<=r; c++) {
+//				System.out.print(c);
+//			}
+//			System.out.println();
+//		}
+		
+		obj.printPatern();
+
 	}
 	
-	void patern1(){
+	void printPatern() {
 		
 		for (int r=1; r<=5;r++) {
 			for(int c=1; c<=r; c++) {
@@ -24,7 +33,7 @@ public class Task3 {
 			}
 			System.out.println();
 		}
+		
 	}
-	
 
 }

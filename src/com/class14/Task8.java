@@ -7,15 +7,17 @@ public class Task8 {
 		
 	 int f=0;
 	 int f2=1;
-	 int sumOfPrev=0;
+	 int fib=0;
 	 	 
 	System.out.println("Fibonacci series of 10 is: "); 
 	 for(int i=0; i<10; i++) {
 		 
-		sumOfPrev=f+f2;
-		f=f2;
-		f2=sumOfPrev;
+		fib=f+f2;
 		System.out.print(f+" ");
+		f=f2;
+		f2=fib;
+		//fib=f+f2;
+		//System.out.print(f+" ");
 	}
 	 
 

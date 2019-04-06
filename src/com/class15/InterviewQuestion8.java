@@ -13,6 +13,7 @@ public class InterviewQuestion8 {
 			c=a+b;
 			a=b;
 			b=c;
+			//c=a+b;
 		System.out.print(a+" ");	
 			
 		}
