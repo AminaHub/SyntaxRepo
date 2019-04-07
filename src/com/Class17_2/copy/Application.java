@@ -19,16 +19,16 @@ public class Application {
 		
 		
 		int s=obj.sum(a,b);
-		System.out.println("The sum of two integers is: "+s);
+		System.out.println("The sum of the two integers is: "+s);
 		
 		s=obj.sub(a,b);
-		System.out.println("The diffrence of two integers is: "+s);
+		System.out.println("The diffrence of the two integers is: "+s);
 		
 		s=obj.div(a,b);
-		System.out.println("The division of two integers is: "+s);
+		System.out.println("The division of the two integers is: "+s);
 		
 		s=obj.mult(a,b);
-		System.out.println("The multiplication of two integers is: "+s);
+		System.out.println("The multiplication of the two integers is: "+s);
 
 	}
 
