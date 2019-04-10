@@ -37,7 +37,7 @@ public class Application {
 		Minimum min=new Minimum();
 		min.print();
 		
-		System.out.println(Calculator.max(1, 2, 9));
+		//System.out.println(Calculator.max(1, 2, 9));
 
 	}
 

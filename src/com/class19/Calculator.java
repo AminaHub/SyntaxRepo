@@ -51,7 +51,7 @@ public class Calculator {
 		
 		return max;
 		
-		//teachers solution
+//   teachers solution
 //		int max=a;
 //		if(b>a) {
 //			max=b;
