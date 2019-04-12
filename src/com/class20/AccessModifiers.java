@@ -1,6 +1,12 @@
 package com.class20;
 
 public class AccessModifiers {
+	
+	private String name="John";
+	String name1="Bilal";
+	protected String name2="Aisha";
+	public String name3="Tetiana";
+	
 
 	public static void main(String[] args) {
 		AccessModifiers obj=new AccessModifiers();
@@ -18,6 +24,8 @@ public class AccessModifiers {
 		for(String word:array) {
 			System.out.println(word);
 		}
+		
+		obj.sayHello();
 	}
 	
 	/*
@@ -68,5 +76,9 @@ public class AccessModifiers {
 	private String[] getWordsFromString(String str) {
 		String [] words=str.split("");
 		return words;
+	}
+	
+	void sayHello() {
+		System.out.println("Hello Class");
 	}
 }

@@ -2,14 +2,15 @@ package com.class19;
 
 public class Repl96 {
 	
-	//public static void main(String[] args) {
+	public static void main(String[] args) {
 		
 	
-//    { 
-//        String s1 = "12345"; 
-//        String s2 = "abcde"; 
-//        System.out.println(merge(s1, s2)); 
-//    } 
+     
+        String s1 = "12345"; 
+       String s2 = "abcde"; 
+       Repl96 obj=new Repl96();
+      System.out.println(obj.mixString(s1, s2)); 
+   } 
 //  
     // function for merging two strings 
     //public static String merge(String s1, String s2) 
@@ -51,6 +52,20 @@ public class Repl96 {
 //	    return (a=" ");
 //			
 //		}
+	
+	
+	String mixString(String s1, String s2)	{
+		  String a="";
+		  for (int i = 0; i < s1.length(); i++) {
+	            for (int j = i; j < s2.length(); j++) {
+	                a=a+s1.charAt(i) + s2.charAt(j);
+	                //System.out.print(a);
+	                break;
+	            }
+	    }
+	    return (a);
+			
+		}
 //		
 //		//test case below (dont change):
 //		public static void main(String[] args){
@@ -59,14 +74,14 @@ public class Repl96 {
 //			System.out.println(obj.mixString("howdy","hello")); //should be hhoewldlyo
 //		}
 	
-public static void main(String[] args) {
-
-        String s1 = "13579"; 
-        String s2 = "hello";
-        for (int i = 0; i < s1.length(); i++) {
-                 System.out.print(s1.substring(i, i+1) + s2.substring(i, i+1));
-             
-    }
-
-}
+//public static void main(String[] args) {
+//
+//        String s1 = "13579"; 
+//        String s2 = "hello";
+//        for (int i = 0; i < s1.length(); i++) {
+//                 System.out.print(s1.substring(i, i+1) + s2.substring(i, i+1));
+//             
+//    }
+//
+//}
 }
