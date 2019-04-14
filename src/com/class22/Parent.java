@@ -12,10 +12,7 @@ public class Parent {
 		
 	}
 
-	public static void main(String[] args) {
-		//childObject.playTennis();
-		//parentObject.playTennis()-->not accessible in parent class
-
-	}
+	
+	
 
 }
